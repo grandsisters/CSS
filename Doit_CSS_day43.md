@@ -95,3 +95,59 @@ box1 여역의 칼럼 라인은 1번부터 4번까지 차지하고 box2 영역�
 같은 방법으로 box3, box4 영역도 라인 번호를 이용해 배치할 수 있다.
 
 항목을 배치할 때 칼럼이나 줄을 하나만 차지할 경우에는 grid-column-start나 grid-row-start 속성을 이용해 시작 번호만 지정하고 끝 번호는 지정하지 않아도 된다.
+
+
+***
+### 템플릿 영역을 만들어 배치하기 
+
+<br>
+
+앞에서 살펴본 그리드 라인은 시작 번호와 끝 번호를 일일이 지정해서 레이아웃을 만들어야 했다.
+
+템플릿 영역으로 항목을 배치하면 그리드 레이아웃을 만드는 것보다 더 쉽다.
+
+지금부터 템플릿 영역을 사용해서 앞에서 배치한 항목과 똑같은 레이아웃을 만들어 보자.
+
+다음 그림처럼 첫 번째 줄에는 box1 영역을 3개 배치하고 두 번째 줄에는 box2 영역 1개와 box3 영역 2개, 
+
+그리고 마지막 줄에는 box2 영역 1개와 중간을 비워 두고 마지막에 box4 영역 1개를 배치하면 된다.
+
+<img src='./img/css38.jpg'>
+
+<br>
+
+맨 먼저 grid-area 속성을 사용해서 각 영역에 템플릿 이름을 지정해 준다.
+
+다음은 4개 영역에 box1부터 box4까지 템플릿 이름을 지정한 예제이다.
+
+    .box1 {
+      background-color:#3689ff;
+      grid-area:box1;
+    }
+    .box2 {
+      background-color:#00cf12;
+      grid-area:box2;
+    }
+    .box3 {
+      background-color:#ff9019;
+      grid-area:box3;
+      }
+    .box4 {
+      background-color:#ffd000;
+      grid-area:box4;
+    }
+
+    ...
+
+    <div id="wrapper">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div> 
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+    </div>
+
+이어서 그리드 컨테이너로 사용하는 #wrapper 요소에서 grid-template-areas 속성을 사용해 템플릿 영역을 어떻게 배치할지 지정한다.
+
+템플릿 영역을 비워 두려면 그 자리에 마침표(.)를 넣는다. 한 줄에 들어갈 템플릿 영역을 큰따옴표(" ")로 묶어 주면 되는데, 
+
+한 줄마다 줄 바꿈을 하면 마치 눈으로 보듯 템플릿 영역을 나열할 수 있어서 좀 더 쉽게 작성할 수 있다.
