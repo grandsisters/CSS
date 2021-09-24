@@ -24,16 +24,27 @@ border-style디스플레이 테두리 속성 지정은 어떤 종류.
     다양한 테두리 스타일 시연:
 
     p.dotted {border-style: dotted;}
+
     p.dashed {border-style: dashed;}
+
     p.solid {border-style: solid;}
+
     p.double {border-style: double;}
+
     p.groove {border-style: groove;}
+
     p.ridge {border-style: ridge;}
+
     p.inset {border-style: inset;}
+
     p.outset {border-style: outset;}
+
     p.none {border-style: none;}
+
     p.hidden {border-style: hidden;}
+
     p.mix {border-style: dotted dashed solid double;}
+    
 
 
 참고: OTHER CSS 테두리 속성은 border-style속성이 설정 되지 않는 한 아무 효과도 없습니다 !
