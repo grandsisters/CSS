@@ -43,6 +43,20 @@
 - Courier New (monospace)
 - Brush Script MT (cursive)
 
+---
+
+### CSS Font Fallbacks
+
+### 일반적으로 사용되는 글꼴 대체
+
+다음은 5가지 일반 글꼴 패밀리로 구성된 몇 가지 일반적으로 사용되는 대체 글꼴입니다.
+
+Serif
+Sans-serif
+Monospace
+Cursive
+Fantasy
+
 참고: 웹사이트를 게시하기 전에 항상 다른 브라우저와 장치에서 글꼴이 어떻게 나타나는지 확인하고 항상 대체 글꼴을 사용하십시오!
 
 팁: [사용 가능한 모든 Google 글꼴 과 사용 방법](https://www.w3schools.com/css/css_font_google.asp) 도 확인 하세요.
