@@ -117,3 +117,26 @@ Google은 또한 사용할 수 있는 다양한 글꼴 효과를 활성화했습
     <h1 class="font-effect-fire">Sofia on Fire</h1>
 
     </body>
+
+여러 글꼴 효과를 요청하려면 다음과 같이 효과 이름을 파이프 문자( |)로 구분하면 됩니다.
+
+    예시
+    "Sofia" 글꼴에 여러 효과 추가:
+
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+    body {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h1 class="font-effect-neon">Neon Effect</h1>
+    <h1 class="font-effect-outline">Outline Effect</h1>
+    <h1 class="font-effect-emboss">Emboss Effect</h1>
+    <h1 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+
+    </body>
