@@ -78,26 +78,26 @@ Font Awesome 5 튜토리얼 에서 Font Awesome을 시작하는 방법에 대해
 
 ### 구글 아이콘
 
-Google 아이콘을 사용하려면 <head>HTML 페이지 섹션 안에 다음 줄을 추가 하세요.
+Google 아이콘을 사용하려면 \<head>HTML 페이지 섹션 안에 다음 줄을 추가 하세요.
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 참고: 다운로드 또는 설치가 필요하지 않습니다!
 
-예시
+    예시
 
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
 
-<i class="material-icons">cloud</i>
-<i class="material-icons">favorite</i>
-<i class="material-icons">attachment</i>
-<i class="material-icons">computer</i>
-<i class="material-icons">traffic</i>
+    <i class="material-icons">cloud</i>
+    <i class="material-icons">favorite</i>
+    <i class="material-icons">attachment</i>
+    <i class="material-icons">computer</i>
+    <i class="material-icons">traffic</i>
 
-</body>
-</html>
+    </body>
+    </html>
