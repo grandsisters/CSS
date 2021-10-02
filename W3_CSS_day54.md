@@ -1,4 +1,4 @@
-## CSS Layout - The position Property
+## CSS Layout - The Position Property
 
 position속성을 지정하는 요소 (static, relative, fixed, absolute or sticky)에 사용되는 측위 방법의 유형.
 
