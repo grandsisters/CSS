@@ -49,11 +49,11 @@ overflow: auto clearfix은 당신이 당신의 마진과 패딩 (다른 사람�
 
 그러나 새롭고 현대적인 clearfix hack 은 사용하기에 더 안전하며 대부분의 웹 페이지에 다음 코드가 사용됩니다.
 
-예시
-.clearfix::after {
-content: "";
-clear: both;
-display: table;
-}
+    예시
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
 
 ::after의사 요소에 대한 자세한 내용은 이후 장에서 배우게 됩니다 .
