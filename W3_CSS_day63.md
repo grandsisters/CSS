@@ -66,36 +66,4 @@ RGBA 색상 값은 rgba(red, green, blue, alpha )로 지정됩니다. 알파 파
 
 <img src='./img/css_opacity4.png'>
 
-    예시
-    <html>
-    <head>
-    <style>
-    div.background {
-    background: url(klematis.jpg) repeat;
-    border: 2px solid black;
-    }
-
-    div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    }
-
-    div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="background">
-    <div class="transbox">
-        <p>This is some text that is placed in the transparent box.</p>
-    </div>
-    </div>
-
-    </body>
-    </html>
+[예시](W3_CSS_day63.html)
